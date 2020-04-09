@@ -10,7 +10,7 @@ int main(int argc, char** argv) //Start of main
 	string autht = "344e89c5ba87dc7726d26ac31aa48136"; //Authentication token
 	string from = "+12058466632"; //Twilio account no
 	string to = "+14379806370"; //User number 
-	string body = "Dear Arsh, Your vote casted successfully. Thank you!"; //Message body
+	string body = "Dear jatin, Your vote casted successfully. Thank you!"; //Message body
 
 
 	client = Client(sid, autht); //Storing details in client function
